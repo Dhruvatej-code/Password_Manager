@@ -1,38 +1,48 @@
-# PassOP - Local Storage Password Manager
+# PassOP - Password Manager
 
-PassOP is a simple password manager built using React and Tailwind CSS. It allows users to store, view, edit, and delete website credentials directly in the browser using Local Storage.
+PassOP is a password manager built for learning full-stack web development. It allows users to save, view, edit, and delete website credentials through a simple and responsive interface.
+
+This project was developed in two versions:
+
+* Local Storage Version – stores passwords in the browser.
+* MongoDB Version – stores passwords in a MongoDB database using a Node.js and Express.js backend.
 
 ## Features
 
-- Add website credentials
-- View saved passwords
-- Edit existing passwords
-- Delete passwords
-- Copy credentials to clipboard
-- Responsive user interface
-- Data stored in browser Local Storage
+* Save passwords
+* View saved passwords
+* Edit passwords
+* Delete passwords
+* Copy credentials
+* Responsive UI
 
 ## Tech Stack
 
-- React.js
-- Tailwind CSS
-- JavaScript
+* React.js
+* Tailwind CSS
+* Node.js
+* Express.js
+* MongoDB
 
-## Learning Outcomes
+## What I Learned
 
-Through this project, I learned:
+* React fundamentals
+* State management
+* Form handling
+* CRUD operations
+* Backend development with Express.js
+* MongoDB integration
+* Frontend and backend communication
 
-- React Components
-- React Hooks (useState, useEffect)
-- Local Storage
-- Form Handling
-- State Management
-- Tailwind CSS Styling
-
-## Installation
-
-1. Clone the repository
-2. Install dependencies
+## Run the Project
 
 ```bash
 npm install
+npm run dev
+```
+
+For the MongoDB version, make sure MongoDB and the backend server are running.
+
+## Author
+
+Dhruva Tej
